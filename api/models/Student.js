@@ -9,8 +9,8 @@
 module.exports = {
 
   schema: {
-    name : { type : String },
-    address : { type : String},
+    name : { type : String, required: true},
+    address : { type : String , required: true},
   },
 
 
