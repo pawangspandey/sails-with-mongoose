@@ -16,7 +16,6 @@ describe('student', function() {
         }else{
           expect(body).to.be.an('string');
           done();
-          // expect(body).to.have.all.keys('name', 'address');
         }
       })
     });
